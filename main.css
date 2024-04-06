@@ -65,6 +65,9 @@ header {
   height: 155px;
   border-bottom: 1px solid white;
 }
+main {
+  position: relative;
+}
 .main_text {
   font-size: 64px;
   font-weight: bold;
@@ -99,6 +102,8 @@ header {
   justify-content: space-between;
 }
 .article_text_con {
+  position: absolute;
+  right: -1000px;
   width: 300px;
   margin-top: 60px;
 }
